@@ -8,6 +8,26 @@
       "nome": "IPA",
       "descricao": "Cerveja com notas intensas de lúpulo.",
       "imagem": "https://capitaobarley.com.br/wp-content/uploads/2021/05/lagunitas-ipa.jpg"
-    }
+    },
+    {
+        "nome": "Cerveja Pilsen",
+        "descricao": "Cerveja clara, leve e refrescante.",
+        "imagem": "https://cdn.awsli.com.br/800x800/784/784082/produto/117273532/tmpcervejapilsen960mlcervejauruguaialacasauruguay-6ab1f1f752.jpg"
+      },
+      {
+        "nome": "IPA",
+        "descricao": "Cerveja com notas intensas de lúpulo.",
+        "imagem": "https://capitaobarley.com.br/wp-content/uploads/2021/05/lagunitas-ipa.jpg"
+      },
+      {
+        "nome": "Cerveja Pilsen",
+        "descricao": "Cerveja clara, leve e refrescante.",
+        "imagem": "https://cdn.awsli.com.br/800x800/784/784082/produto/117273532/tmpcervejapilsen960mlcervejauruguaialacasauruguay-6ab1f1f752.jpg"
+      },
+      {
+        "nome": "IPA",
+        "descricao": "Cerveja com notas intensas de lúpulo.",
+        "imagem": "https://capitaobarley.com.br/wp-content/uploads/2021/05/lagunitas-ipa.jpg"
+      }
   ]
   
