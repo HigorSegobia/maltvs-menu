@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/maltvs-menu/static/css/main.3ddf3bc1.css",
+    "main.js": "/maltvs-menu/static/js/main.c8a6bfac.js",
+    "index.html": "/maltvs-menu/index.html",
+    "main.3ddf3bc1.css.map": "/maltvs-menu/static/css/main.3ddf3bc1.css.map",
+    "main.c8a6bfac.js.map": "/maltvs-menu/static/js/main.c8a6bfac.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ddf3bc1.css",
+    "static/js/main.c8a6bfac.js"
+  ]
+}
