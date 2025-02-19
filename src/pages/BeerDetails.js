@@ -9,9 +9,11 @@ function BeerDetails() {
 
   useEffect(() => {
     fetch('./beers.json')
-  .then(res => res.json())
-      .then((data) => setBeer(data[id]))
-      .catch((error) => console.error('Erro ao carregar detalhes:', error));
+  .then(response => response.json())
+  .then(data => {
+    setBeer(data[id]);
+  })
+  .catch(error => console.error('Erro ao carregar detalhes:', error));
   }, [id]);
 
   if (!beer) {
