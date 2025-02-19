@@ -8,8 +8,8 @@ function BeerDetails() {
   const [beer, setBeer] = useState(null);
 
   useEffect(() => {
-    fetch('/beers.json')
-      .then((response) => response.json())
+    fetch('./beers.json')
+  .then(res => res.json())
       .then((data) => setBeer(data[id]))
       .catch((error) => console.error('Erro ao carregar detalhes:', error));
   }, [id]);
