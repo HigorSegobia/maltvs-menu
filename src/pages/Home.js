@@ -8,10 +8,12 @@ function Home() {
   const [beers, setBeers] = useState([]);
 
   useEffect(() => {
-fetch('./beers.json')
-  .then(res => res.json())
-  .then(data => setBeers(data))
-    .catch((error) => console.error('Erro ao carregar as cervejas:', error));
+    fetch('./beers.json')
+    .then(response => response.json())
+    .then(data => {
+      setBeers(data);
+    })
+    .catch(error => console.error('Erro ao carregar detalhes:', error));
   }, []);
 
   return (
