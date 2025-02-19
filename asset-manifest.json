@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/maltvs-menu/static/css/main.3ddf3bc1.css",
-    "main.js": "/maltvs-menu/static/js/main.8f7f30c4.js",
+    "main.js": "/maltvs-menu/static/js/main.76fa1a7b.js",
     "index.html": "/maltvs-menu/index.html",
     "main.3ddf3bc1.css.map": "/maltvs-menu/static/css/main.3ddf3bc1.css.map",
-    "main.8f7f30c4.js.map": "/maltvs-menu/static/js/main.8f7f30c4.js.map"
+    "main.76fa1a7b.js.map": "/maltvs-menu/static/js/main.76fa1a7b.js.map"
   },
   "entrypoints": [
     "static/css/main.3ddf3bc1.css",
-    "static/js/main.8f7f30c4.js"
+    "static/js/main.76fa1a7b.js"
   ]
 }
