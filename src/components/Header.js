@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="header">
       <div className="header-logo-container">
-        <img img src={process.env.PUBLIC_URL + '/logo.png'} alt="Logo" className="header-logo" />
+        <img img src="./logo.png" alt="Logo" className="header-logo" />
         <h1 className="header-title">Choperia MALTVS</h1>
       </div>
       <nav className="header-nav">
