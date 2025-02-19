@@ -1,0 +1,29 @@
+/* src/components/BeerCard.css */
+
+/* Mobile First: card em coluna, centralizado */
+.beer-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .beer-card:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .beer-card-image {
+    width: 100%;
+    max-width: 150px;
+    margin-bottom: 1rem;
+  }
+  
+  .beer-card-title {
+    font-size: 1rem;
+    text-align: center;
+  }
+  

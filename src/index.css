@@ -1,13 +1,28 @@
-body {
+/* index.css */
+
+/* Zera margens/padding para manter consistência */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Definição básica de fonte e cor de fundo */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.4;
+}
+
+/* Links sem sublinhado */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Para que imagens não "estourem" a tela em mobile */
+img {
+  max-width: 100%;
+  height: auto;
 }

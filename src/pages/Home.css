@@ -1,0 +1,36 @@
+/* src/pages/Home.css */
+
+/* Mobile First: container com padding, grid de 1 coluna */
+.home-container {
+    padding: 1rem;
+  }
+  
+  .home-title {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .home-beer-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* 1 coluna em mobile */
+    gap: 1rem;
+  }
+  
+  .beer-link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Em telas maiores, aumentar para 2 ou mais colunas */
+  @media (min-width: 600px) {
+    .home-beer-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .home-beer-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
